@@ -15,6 +15,7 @@ const tabsContainer = document.querySelector('.operations__tab-container');
 const tabsContent = document.querySelectorAll('.operations__content');
 
 ///////////////////////////////////////////////////////////////
+// Modal Window //
 const openModal = function (e) {
   e.preventDefault();
   modal.classList.remove('hidden');
