@@ -36,3 +36,10 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
+
+/////////////////////////////////////////////////////////////
+// Button Scrooling
+btnScrollTo.addEventListener('click', function (e) {
+  e.preventDefault(e);
+  section1.scrollIntoView({ behavior: 'smooth' });
+});
